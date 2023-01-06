@@ -1,0 +1,97 @@
+
+    
+*{
+    box-sizing: border-box;
+}
+    footer{
+   
+    border: 3px solid rgb(36, 157, 36);
+   background-image:url(https://media.istockphoto.com/id/1164386039/photo/howrah-bridge-on-river-ganges-at-kolkata-at-twilight-with-moody-sky.jpg?s=612x612&w=0&k=20&c=CHrNWdInFSDyERdvgd0f8935hZcBQU6lbYCE4LlXqUY=) ;
+   background-size: 20%;
+    
+}
+.copy{
+   float: left;
+    margin:20px;
+    padding:5px;
+    background-color: rgb(52, 221, 39);
+    opacity: 0.9;
+   
+}
+.link{
+    
+    display: flex;
+    justify-content:flex-end;  
+}
+header{
+   border: 3px solid rgb(169, 169, 223);
+   background-color:rgb(165, 200, 232);
+   
+}
+nav{
+    
+    text-decoration:none;
+    float: right;
+    border: 2px ;
+    background-color:rgb(242, 202, 133);
+    margin: 10px;
+    padding: 5px;
+
+}
+nav a 
+{
+    color: black;
+    padding: 5px;
+    text-decoration: none;
+}
+.intro{
+    background-color:rgb(221, 201, 167);
+    border: 3px solid orange;
+}
+main{
+    background-color:rgb(228, 145, 100);
+}
+
+.main-box{
+    margin: 10px;
+    border:2px solid green;
+    background-color:rgb(130, 186, 130);
+}
+
+.column{
+    margin: 10px;
+    float: left;
+    padding: 5px;
+    width: 30%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.about{
+    margin:10px;
+    border: 2px solid blue;
+    background-color:rgb(174, 174, 237);
+}
+.about-text{
+   margin: 20px;
+   display: flex;
+   justify-content:left;
+
+}
+.achievements{
+    border: 3pxsolid rgb(144, 205, 144);
+}
+
+.img{
+    display: flex;
+    justify-content:center;
+    margin: 30px;
+    
+}
+tr{
+    background-color: aqua;
+    opacity: 0.8;
+}
+
